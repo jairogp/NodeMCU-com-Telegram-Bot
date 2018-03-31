@@ -31,7 +31,7 @@ void connect()//Funçao para Conectar ao wifi e verificar à conexao.
 {
    if (WiFi.status() != WL_CONNECTED)//Caso nao esteja conectado ao WiFi, Ira conectarse
    {
-      WiFi.begin("Vitorelo", "setembro1309");//Insira suas informaçoes da rede
+      WiFi.begin("ssid", "password");//Insira suas informaçoes da rede
       delay(2000);
    }
 }
